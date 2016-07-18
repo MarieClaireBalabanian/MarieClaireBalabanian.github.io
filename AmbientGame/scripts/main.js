@@ -83,16 +83,27 @@ ballMove();
 
 
 //      Key Press Events
+var count = 0;
+function counter(e) { 
+  if (e.keyCode === 32) {
+    count++;
+  }
+} 
+
 function keyMove(e) {
+  counter(e);
   if (e.keyCode === 39) {
     pSpex.x += 15;
   } 
   else if (e.keyCode === 37) {
     pSpex.x -= 15;
   }
-  else if (e.keyCode === 32) {
-    var interval = setInterval(ballMove, 30)
+  else if ((e.keyCode === 32) && (count & 2 === 0)) {
+    setTimeout(ballMove, 30);
   }
- } 
+  else if ((e.keyCode === 32) && (count % 2 !== 0)) {
+    setInterval(ballMove, 30);
+  } 
+} 
 document.onkeydown = keyMove;
 
