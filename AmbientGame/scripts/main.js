@@ -90,19 +90,21 @@ function counter(e) {
   }
 } 
 
+
 function keyMove(e) {
   counter(e);
+  globalID = requestAnimationFrame(ballMove);
   if (e.keyCode === 39) {
-    pSpex.x += 15;
+    pSpex.x += 15;    
   } 
   else if (e.keyCode === 37) {
     pSpex.x -= 15;
   }
-  else if ((e.keyCode === 32) && (count & 2 === 0)) {
-    setTimeout(ballMove, 30);
+  else if ((e.keyCode === 32) && (count % 2 === 0)) {
+    // cancelAnimationFrame(globalID);
   }
   else if ((e.keyCode === 32) && (count % 2 !== 0)) {
-    setInterval(ballMove, 30);
+    setInterval(ballMove, 30)
   } 
 } 
 document.onkeydown = keyMove;
