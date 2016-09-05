@@ -8471,10 +8471,7 @@ html {
 body {
   font-family: 'Rokkitt', serif;
   color: rgba(39,39,39);
-
- 
 }
-
 
 .content {
   margin: 3% 5%;
@@ -8491,6 +8488,7 @@ body {
   margin-left: 0%;
   margin-right: 0%;
 }
+
 #badnname {
   font-family: 'Cutive Mono', monospace;
   font-weight: bold;
@@ -8512,6 +8510,7 @@ h1, h2 {
 h2 {
   font-size: 44px;
 }
+
 h3 {
   font-size: 35px;
   font-family: 'Futura', cursive;
