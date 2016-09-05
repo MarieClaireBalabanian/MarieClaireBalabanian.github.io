@@ -8464,8 +8464,8 @@ html {
    font-family: GillSans, Calibri, Trebuchet, sans-serif;
 }
 
-.profile {
-  border-radius: 40px;
+.profile img {
+  border-radius: 20px;
 }
 
 body {
@@ -8474,6 +8474,12 @@ body {
 
  
 }
+
+
+.content {
+  margin: 3% 5%;
+}
+
 .banner {
   background-image: url('../img/desert.jpg');
   background-size: cover;
@@ -8482,12 +8488,9 @@ body {
   height: 400px;
   font-family: Futura, serif;
   font-weight: lighter;
+  margin-left: 0%;
+  margin-right: 0%;
 }
-
-.content {
-  margin: 3% 5%;
-}
-
 #badnname {
   font-family: 'Cutive Mono', monospace;
   font-weight: bold;
