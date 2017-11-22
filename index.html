@@ -3,6 +3,7 @@
 <head>
   <title>Marie-Claire Balabanian</title>
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -12,148 +13,210 @@
   <link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Suravaram" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300" rel="stylesheet">
 
-
+  <link href="https://fonts.googleapis.com/css?family=Assistant|Electrolize|Karla|Khula|Play|Quattrocento+Sans" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="css/materialize.css">
 </head>
 <body>
+<div class="container">
 
-<div class="home background-image">
-  <div>
-    <a name="homeview"></a>
-  </div>
-  <div class="header">
-    <div class="row">
-      <div class="col s12 m12 l12">
-        <a href="#homeview"><h1>marie-claire balabanian</h1></a>
-      </div>
+<!-- ///////////////////////////////////////-->
+<!-- HOME SECTION -->
+<!-- ///////////////////////////////////////-->
+<div class="home-section">
+  <div class="row">
+    <div class="col s12 m12 l12">
+      <a id="homeview"></a>
     </div>
-    <div class="row header-text">
-      <div class="col s12 m12 l12">
+  </div>
+
+
+
+    <div class="row">
+             
+      <div class="col s12 m12 l12 fixed">
+        <header>  
+        <h1><a href="#homeview">marie-claire balabanian<span class="blinking-cursor">|</span></a></h1>
         <h2>web developer</h2>
+        </header> 
+      </div>
+     
+       
+      </div>
+      
+    
+    
+        
+<!-- <nav>
+      <div class="col s12 m12 l12" nav"">
+          <ul class="center">
+            <a href="#projectsview"><li id="projects">projects</li></a>
+            <li>-</li>
+            <a href="#aboutview"><li id="about">about</li>
+            <li>-</li>
+            <a href="#contactview"><li id="contact">contact</li>
+          </ul>
+        </div>
+      </nav> -->
+
+  <div class="image-nav">
+    <div class="jump1"></div>
+    <div class="row">
+      <div class="col s4 m4 l4 center">
+        <div id="about-image" class="responsive-img"><h4><a href="#aboutview">About</a></h4></div>
+      </div>
+      <div class="col s4 m4 l4 center">
+        <div id="project-image" class="responsive-img"><h4><a href="#projectsview">Projects</a></h4></div>
+      </div>
+      <div class="col s4 m4 l4 center">
+       <div id="contact-image" class="responsive-img"><h4><a href="#contactview">Contact</a></h4></div>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col s12 m12 l12 nav">
-        <ul class="center">
-          <a href="#projectsview"><li id="projects">projects</li></a>
-          <li>-</li>
-          <a href="#aboutview"><li id="about">about</li>
-        </ul>
-      </div> 
-    </div> 
   </div>
+ </div>
+
+<!-- ///////////////////////////////////////-->
+<!-- PROJECT SECTION -->
+<!-- ///////////////////////////////////////-->
+<div class="row">
+  <div class="col s12 m12 l12">
+    <a id="projectsview"></a>
+  </div>
+  <div class="jump1"></div>
 </div>
 
-<div class="body-image">
-<div class="content">
-  <div class="projects">
-    <div class="row">
-      <div class="jump1 col s12 m12 l12">
-        <a name="projectsview">&nbsp;</a>
-      </div>
-    </div>
+  <div class="projects-section">
     <div class="row">
       <div class="col s12 m12 l12">
-        <h3>Projects</h3>
+        <h5>Projects</h5>
       </div>
     </div>
     <div class="row">
-       <div class="col s12 m4 l4 border">
-        <h4 id="wuvr">WuvR</h4>
-        <a href="https://wuvrapp.herokuapp.com/"><img src="img/wuvr.jpg"></a>
-        <h5>- Paired Programming -</h5>
+      <div class="col s12 m6 l6 border center">
+        <h6 id="soundswap">Sound*Swap</h6>
+        <a href="https://sound-swap.herokuapp.com/" target="_blank"><img class="responsive-img" src="img/sound.png"></a>
+        <p>- 2017 -</p>
+        <p>Sound*Swap is an online community in which local musicians help touring musicians. Amps break in Who-Knows-Where, Oklahoma... And that old van can fit only so much gear. Why not share?</p>
+        <p>Built with:<br />Node.js, Express.js, Handlebars.js, Bookshelf.js, Knex, SQLite3, Javascript, JQuery, MaterializeCSS, CSS, HTML.</p>
+      </div>
+      <hr />
+      <div class="col s12 m6 l6 border center">
+        <h6 id="tim">TIM ISELER</h6>
+        <a href="http://www.tim-iseler.com/" target="_blank"><img class="responsive-img" src="img/tim.png"></a>
+        <p>- 2017 -</p>
+        <p>Tim-Iseler.com is the personal site of distinguised Audio Engineer Tim Iseler. The full, dynamic version is coming soon. It'll allow Tim to modify all content himself, without a lick of code. </p>
+        <p>Built with:<br />Node.js, Express.js, Handlebars.js, Mongoose, MongoDB, CKEditor, Javascript, JQuery, MaterializeCSS, CSS, HTML.</p>
+      </div>
+    </div>
+    <hr />
+    <div class="row">
+       <div class="col s12 m6 l6 border center">
+        <h6 id="wuvr">WuvR</h6>
+        <a href="https://wuvrapp.herokuapp.com/" target="_blank"><img class="responsive-img" src="img/wuvr.png"></a>
+        <p>- Paired Programming -<p>
         <p>Looking for a new furry member of your family? Locate adoptable animals in any zip code and save a list of the sweet faces that catch your eye. Find a new love...or two. Click the image above to try it out.</p>
-        <br />
-        <p>Built with:<br />Ruby, Sinatra, Active Record, SQLite3, Postgresql, Javascript, JQuery, MaterializeCSS, CSS, HTML.</p>
+        <p>Built with:<br />Ruby, Sinatra, Active Record, SQLite3, Petfinder API, Javascript, JQuery, MaterializeCSS, CSS, HTML.</p>
       </div>
-  
-      <div class="col s12 m4 l4 border">
-        <h4 id="soundswap">Sound*Swap</h4>
-        <img src="img/sound.jpg">
-        <h5>- Solo Project -</h5>
-        <p>Sound*Swap.com is an online community of local musicians helping out touring musicians. Amps break in Who-Knows-Where, Oklahoma... And that old van can fit only so much gear. Why not share? Coming soon!</p>
-        <br />
-        <p>Built with:<br />Node.js, Express.js, Handlebars.js, Bookshelf.js, SQLite3, Geocoding, Javascript, CSS, HTML.</p>
-      </div>
-
-      <div class="col s12 m4 l4">
-        <h4 id="badnname">badnname</h4>
-        <a href="https://badnname-wdi.herokuapp.com/"><img src="img/bad.jpg"></a>
-        <h5>- Paired Programming -</h5>
+      <hr />
+      <div class="col s12 m6 l6 border center">
+        <h6 id="badnname">badnname</h6>
+        <a href="https://badnname-wdi.herokuapp.com/" target="_blank"><img class="responsive-img" src="img/bad.png"></a>
+        <p>- Paired Programming -</p>
         <p>Great idea for a band name? Badnname.com allows you to check if your awesome band name is already in use or not. While you're at it, create a list of your favorites. Click the image to try out an early version.</p>
-        <br />
-        <p>Built with:<br />Node.js, Express.js, Handlebars.js, Mongoose, MongoDB, Javascript, JQuery, CSS, HTML.</p>
+        <p>Built with:<br />Node.js, Express.js, Handlebars.js, Mongoose, MongoDB, Bandcamp Scraper, Discogs API, Javascript, JQuery, CSS, HTML.</p>
       </div>
     </div>
   </div>
   
-<div class="personal">
-  <div class="about">
+
+<!-- ///////////////////////////////////////-->
+<!-- ABOUT SECTION -->
+<!-- ///////////////////////////////////////-->
+  <div class="about-section">
     <div class="row">
-      <div class="jump2 col s12 m12 l12">
-        <a name="aboutview">&nbsp;</a>
+      <div class="col s12 m12 l12">
+        <a id="aboutview"></a>
       </div>
+      <div class="jump1"></div>
     </div>
     <div class="row">
       <div class="col s12 m12 l12">
-        <h3>About Me</h3>
+        <h5>About</h5>
       </div>
     </div>
     <div class="row">
-      <div class="col s12 m12 l12 quote" >
-        <p>&quotBlame it or praise it, there is no denying the wild horse in us.&quot
-        <br />- Virginia Woolf
-        </p>
+      <div class="col s12 m12 l12" >
+        <p id="quote">&quotBlame it or praise it, there is no denying the wild horse in us.&quot
+        <br />- Virginia Woolf</p>
       </div>
+      <div class="col s12 m12 l12 center" >
+      <img class="responsive-img" src="img/cali.jpg">
+       </div>
+
+
     </div>
     <div class="row">
-      <div class=" profile col s12 m12 l12">
-        <img src="img/cali.jpg">
-      </div>
-      <div class="col s12 m12 l12">
-        <p>I'm a Chicago-based Web Developer with a passion for creating and connecting. A graduate of General Assembly's Web Development Immersive program, I have a deep interest in both Front End and Back End Development. My ultimate goal is to work with other creative and technical minds to build beautiful things that enrich the lives of users. My skills include HTML, CSS, CSS Frameworks / Responsive Design, Javascript, JQuery, Node.js, Express.js, Handlebars.js, Bookshelf.js, Ruby, Sinatra, Active Record, Mongodb, Sqlite3, Adobe Photoshop and Podcasting/Audio Engineering.</p>
+      <div class="col s12 m12 l12 center">
+        <p>I'm a Chicago-based Web Developer with a passion for creating and connecting. A graduate of General Assembly's Web Development Immersive program, I have a deep interest in both Front End and Back End Development. My ultimate goal is to work with other creative and technical minds to build beautiful things that enrich the lives of users.</p>
+        <p>My skills include HTML, CSS, CSS Frameworks / Responsive Design, Javascript, JQuery, Node.js, Express.js, Handlebars.js, Bookshelf.js, Ruby, Sinatra, Active Record, Mongodb, Sqlite3, Adobe Photoshop and Podcasting/Audio Engineering.</p>
         <p>When I'm not coding, I'm creating blissed out soundscapes with my band, volunteering at my favorite local animal shelter or getting lost in nature. I'm just a hippie in a tech world.</p>
       </div>
- <!--    </div> -->
     </div>
   </div>
-  <div class="contact">
+
+
+
+<!-- ///////////////////////////////////////-->
+<!-- CONTACT SECTION -->
+<!-- ///////////////////////////////////////-->
+  <div class="contact-section">
     <div class="row">
-      <div class="jump1 col s12 m12 l12">
-        &nbsp;
+      <div class="col s12 m12 l12">
+        <a id="contactview"></a>
       </div>
+      <div class="jump1"></div>
     </div>
     <div class="row">
       <div class="col s12 m12 l12">
-        <h3>Reach Out</h3>
+        <h5>Contact</h5>
       </div>
     </div>
     <div class="row">
       <div class="col s12 m12 l12 center">
-        <p>marieclaire.balabanian (a) gmail.com</p>
+        <a href="mailto:marieclaire.balabanian@gmail.com" taget="_top">
+          <img class="responsive-img" id="email" src="img/email.png" />
+        </a>
       </div>
     </div>
     <div class="row">
       <div class="col s12 m12 l12 center">
         <a href="https://github.com/MarieClaireBalabanian">
-          <img id="github" src="img/github.png" width="50px" style="margin-top:10px;">
+          <img class="responsive-img" id="github" src="img/github.png" />
         </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m12 l12 center">
         <a href="https://www.linkedin.com/in/marie-claire-balabanian">
-          <img id="linkedin" src="img/linkedin.jpg" width="30px">
+          <img class="responsive-img" id="linkedin" src="img/linkedin.jpg" />
         </a>
-       <!--  <a href="https://www.instagram.com/mcbalabanian">
-          <img id="instagram" src="img/instagram.png" width="32px">
-        </a> -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m12 l12 center">
+        <a href="https://www.instagram.com/mcbalabanian">
+          <img class="responsive-img" id="instagram" src="img/instagram.png" />
+        </a>
       </div>
     </div>
   </div>
-</div>
-</div>
-</div>
 
-
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
 </body>
 </html>
