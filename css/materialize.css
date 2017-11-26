@@ -8539,7 +8539,7 @@ h1 a:hover, h4 a:hover {
 }
 
 p {
-  font-weight: bold;
+/*  font-weight: bold;*/
   font-size: .9em;
   margin: 5% 10%;
 }
@@ -8714,6 +8714,10 @@ hr {
 
 @media only screen and (max-width: 600px) {
 
+.about-section img {
+  border-radius: 100px;
+  max-height: 200px;
+}
 #project-image {
   background-position: 25% 30%;
 
