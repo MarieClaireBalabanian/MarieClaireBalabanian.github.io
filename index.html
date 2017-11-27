@@ -3,89 +3,58 @@
 <head>
   <title>Marie-Claire Balabanian</title>
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Suravaram" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300" rel="stylesheet">
-
   <link href="https://fonts.googleapis.com/css?family=Assistant|Electrolize|Karla|Khula|Play|Quattrocento+Sans" rel="stylesheet">
-
   <link rel="stylesheet" type="text/css" href="css/materialize.css">
 </head>
 <body>
+
 <div class="container">
 
-<!-- ///////////////////////////////////////-->
-<!-- HOME SECTION -->
-<!-- ///////////////////////////////////////-->
-<div class="home-section">
-  <div class="row">
-    <div class="col s12 m12 l12">
-      <a id="homeview"></a>
-    </div>
-  </div>
 
-
-
+<!-- HOME PAGE -->
+  <div class="home-section">
     <div class="row">
-             
+      <div class="col s12 m12 l12">
+        <a id="homeview"></a>
+      </div>
+    </div>
+    <div class="row">      
       <div class="col s12 m12 l12 fixed">
         <header>  
-        <h1><a href="#homeview">marie-claire balabanian<span class="blinking-cursor">|</span></a></h1>
-        <h2>web developer</h2>
+          <h1><a href="#homeview">marie-claire balabanian<span class="blinking-cursor">|</span></a></h1>
+          <h2>web developer</h2>
         </header> 
-      </div>
-     
-       
-      </div>
-      
-    
-    
-        
-<!-- <nav>
-      <div class="col s12 m12 l12" nav"">
-          <ul class="center">
-            <a href="#projectsview"><li id="projects">projects</li></a>
-            <li>-</li>
-            <a href="#aboutview"><li id="about">about</li>
-            <li>-</li>
-            <a href="#contactview"><li id="contact">contact</li>
-          </ul>
+      </div> 
+    </div> 
+    <div class="image-nav">
+      <div class="jump1"></div>
+      <div class="row">
+        <div class="col s4 m4 l4 center">
+          <div id="about-image" class="responsive-img"><h4><a href="#about">About</a></h4></div>
         </div>
-      </nav> -->
-
-  <div class="image-nav">
-    <div class="jump1"></div>
-    <div class="row">
-      <div class="col s4 m4 l4 center">
-        <div id="about-image" class="responsive-img"><h4><a href="#aboutview">About</a></h4></div>
-      </div>
-      <div class="col s4 m4 l4 center">
-        <div id="project-image" class="responsive-img"><h4><a href="#projectsview">Projects</a></h4></div>
-      </div>
-      <div class="col s4 m4 l4 center">
-       <div id="contact-image" class="responsive-img"><h4><a href="#contactview">Connect</a></h4></div>
+        <div class="col s4 m4 l4 center">
+          <div id="project-image" class="responsive-img"><h4><a href="#project">Projects</a></h4></div>
+        </div>
+        <div class="col s4 m4 l4 center">
+         <div id="contact-image" class="responsive-img"><h4><a href="#contact">Connect</a></h4></div>
+        </div>
       </div>
     </div>
   </div>
- </div>
 
-<!-- ///////////////////////////////////////-->
+
 <!-- PROJECT SECTION -->
-<!-- ///////////////////////////////////////-->
-<div class="row">
-  <div class="col s12 m12 l12">
-    <a id="projectsview"></a>
+  <div class="row">
+    <div class="col s12 m12 l12">
+      <a id="project"></a>
+    </div>
+    <div class="jump1"></div>
   </div>
-  <div class="jump1"></div>
-</div>
 
   <div class="projects-section">
     <div class="row">
@@ -93,12 +62,12 @@
         <h5>Projects</h5>
       </div>
     </div>
-    <div class="row">
+    <div class="row row-margin">
       <div class="col s12 m6 l6 border center">
         <h6 id="soundswap">Sound*Swap</h6>
         <a href="https://sound-swap.herokuapp.com/" target="_blank"><img class="responsive-img" src="img/sound.png"></a>
         <p>- 2017 -</p>
-        <p>Amps break in Who-Knows-Where, Oklahoma... And that old van can fit only so much gear. Sound*Swap is where musicians help musicians. Share gear. Borrow gear. Search by zip code. It's all about Karma!</p>
+        <p>Amps break in Who-Knows-Where, Oklahoma. Will that Rhodes really fit in that old van? Sound*Swap is where local musicians help touring musicians. Share gear. Borrow gear. Search by zip code.<br />Click the image to visit Sound*Swap.com.</p>
         <p>Built with:<br />Node.js, Express.js, Handlebars.js, Bookshelf.js, Knex, SQLite3, Javascript, JQuery, MaterializeCSS, CSS, HTML.</p>
       </div>
       <hr />
@@ -106,7 +75,7 @@
         <h6 id="tim">TIM ISELER</h6>
         <a href="http://www.tim-iseler.com/" target="_blank"><img class="responsive-img" src="img/tim.png"></a>
         <p>- 2017 -</p>
-        <p> The personal site of distinguised Audio Engineer Tim Iseler. The full, dynamic version (coming soon), allows Tim to modify all content, without a lick of code, via form inputs, text editors, and CRUD actions.</p>
+        <p> The personal site of distinguised Audio Engineer Tim Iseler. The dynamic version (coming soon), allows Tim to modify all content, without a lick of code, via forms, text editors, and CRUD actions.<br />Click the image to visit Tim-Iseler.com.</p>
         <p>Built with:<br />Node.js, Express.js, Handlebars.js, Mongoose, MongoDB, CKEditor, Javascript, JQuery, MaterializeCSS, CSS, HTML.</p>
       </div>
     </div>
@@ -131,13 +100,11 @@
   </div>
   
 
-<!-- ///////////////////////////////////////-->
 <!-- ABOUT SECTION -->
-<!-- ///////////////////////////////////////-->
   <div class="about-section">
     <div class="row">
       <div class="col s12 m12 l12">
-        <a id="aboutview"></a>
+        <a id="about"></a>
       </div>
       <div class="jump1"></div>
     </div>
@@ -161,14 +128,11 @@
   </div>
 
 
-
-<!-- ///////////////////////////////////////-->
 <!-- CONTACT SECTION -->
-<!-- ///////////////////////////////////////-->
   <div class="contact-section">
     <div class="row">
       <div class="col s12 m12 l12">
-        <a id="contactview"></a>
+        <a id="contact"></a>
       </div>
       <div class="jump1"></div>
     </div>
@@ -206,6 +170,7 @@
       </div>
     </div>
   </div>
+
 
 </div>
 <script
