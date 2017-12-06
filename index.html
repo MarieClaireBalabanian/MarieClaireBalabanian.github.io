@@ -9,9 +9,9 @@
   <link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Assistant|Electrolize|Karla|Khula|Play|Quattrocento+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/materialize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-
 </head>
 <body>
 
@@ -46,10 +46,12 @@
 
 
 <!-- HOME PAGE IMAGES -->
+  
+
   <div class="home-section">
-    <a id="home"></a>
+  <a id="home"></a>
+  <div class="jump1"></div>  
     <div class="image-nav">
-      <div class="jump1"></div>
       <div class="row">
         <div class="col s4 m4 l4 center">
           <div id="about-image" class="responsive-img"></div>
@@ -66,14 +68,11 @@
 
 
 <!-- PROJECT SECTION -->
-  <div class="row">
-    <div class="col s12 m12 l12">
-      <a id="project"></a>
-    </div>
-    <div class="jump1"></div>
-  </div>
+  
 
   <div class="projects-section">
+    <a id="project"></a>
+  <div class="jump1"></div>
     <div class="row">
       <div class="col s12 m12 l12">
         <h5>Projects</h5>
@@ -81,40 +80,64 @@
     </div>
     <div class="row row-margin">
       <div class="col s12 m6 l6 border center">
-        <h6 id="soundswap">Sound*Swap</h6>
-        <a href="https://sound-swap.herokuapp.com/" target="_blank"><img class="responsive-img" src="img/sound.png"></a>
-        <p>- 2017 -</p>
-        <p>Amps break in Who-Knows-Where, Oklahoma. Will that Rhodes really fit in that old van? Sound*Swap is where local musicians help touring musicians. Share gear. Borrow gear. Search by zip code.</p>
-        <p><a href="https://sound-swap.herokuapp.com/" target="_blank">Visit Sound*Swap</a></p>
-        <p>Built with:<br />Node.js, Express.js, Handlebars.js, Bookshelf.js, Knex, SQLite3, Javascript, JQuery, MaterializeCSS, CSS, HTML.</p>
+        <div class="project-name">
+          <h6 id="tim">TIM ISELER</h6>
+        </div>
+        <figure>
+          <a href="http://www.tim-iseler.com/" target="_blank"><img class="responsive-img" src="img/tim.png"></a>
+          <figcaption>
+            <a href="http://www.tim-iseler.com/" target="_blank">Visit Tim Iseler</a>
+          </figcaption>
+        </figure>
+        <p>Solo Design/Coding (2017)</p>
+        <p> The personal site of distinguised Audio Engineer Tim Iseler. The dynamic version (coming soon), allows Tim to modify all content, without a lick of code, via forms, text editors, and CRUD.</p>
+        <p>Built with:<br />Node.js, Express.js, Handlebars.js, Mongoose, MongoDB, CKEditor, Javascript, JQuery, MaterializeCSS, CSS, HTML.</p>
       </div>
       <hr />
       <div class="col s12 m6 l6 border center">
-        <h6 id="tim">TIM ISELER</h6>
-        <a href="http://www.tim-iseler.com/" target="_blank"><img class="responsive-img" src="img/tim.png"></a>
-        <p>- 2017 -</p>
-        <p> The personal site of distinguised Audio Engineer Tim Iseler. The dynamic version (coming soon), allows Tim to modify all content, without a lick of code, via forms, text editors, and CRUD.</p>
-        <p><a href="http://www.tim-iseler.com/" target="_blank">Visit Tim Iseler</a></p>
-        <p>Built with:<br />Node.js, Express.js, Handlebars.js, Mongoose, MongoDB, CKEditor, Javascript, JQuery, MaterializeCSS, CSS, HTML.</p>
+        <div class="project-name">
+          <h6 id="soundswap">Sound*Swap</h6>
+        </div>
+        <figure>
+          <a href="https://sound-swap.herokuapp.com/" target="_blank"><img class="responsive-img" src="img/sound.png"></a>
+          <figcaption>
+            <a href="https://sound-swap.herokuapp.com/" target="_blank">Visit Sound*Swap</a>
+          </figcaption>
+        </figure>
+        <p>Solo Design/Coding (2017)</p>
+        <p>Amps break in Who-Knows-Where, Oklahoma. Will that Rhodes really fit in that old van? Sound*Swap is where local musicians help touring musicians. Share gear. Borrow gear. Search by zip code.</p>
+        <p>Built with:<br />Node.js, Express.js, Handlebars.js, Bookshelf.js, Knex, SQLite3, Javascript, JQuery, MaterializeCSS, CSS, HTML.</p>
       </div>
     </div>
     <hr />
     <div class="row">
        <div class="col s12 m6 l6 border center">
-        <h6 id="wuvr">WuvR</h6>
-        <a href="https://wuvrapp.herokuapp.com/" target="_blank"><img class="responsive-img" src="img/wuvr.png"></a>
-        <p>- Paired Programming -<p>
+        <div class="project-name">
+          <h6 id="wuvr">WuvR</h6>
+        </div>
+        <figure>
+          <a href="https://wuvrapp.herokuapp.com/" target="_blank"><img class="responsive-img" src="img/wuvr.png"></a>
+          <figcaption>
+            <a href="https://wuvrapp.herokuapp.com/" target="_blank">Visit WuvR</a>
+          </figcaption>
+        </figure>
+        <p>Paired Programming, General Assembly (2016)<p>
         <p>Looking for a new furry member of your family? Locate adoptable animals in any zip code and save a list of the sweet faces that catch your eye. Find a new love...or two.</p>
-        <p><a href="https://wuvrapp.herokuapp.com/" target="_blank">Visit WuvR</a></p>
         <p>Built with:<br />Ruby, Sinatra, Active Record, SQLite3, Petfinder API, Javascript, JQuery, MaterializeCSS, CSS, HTML.</p>
       </div>
       <hr />
       <div class="col s12 m6 l6 border center">
-        <h6 id="badnname">badnname</h6>
-        <a href="https://badnname-wdi.herokuapp.com/" target="_blank"><img class="responsive-img" src="img/bad.png"></a>
-        <p>- Paired Programming -</p>
+        <div class="project-name">
+          <h6 id="badnname">badnname</h6>
+        </div>
+        <figure>
+          <a href="https://badnname-wdi.herokuapp.com/" target="_blank"><img class="responsive-img" src="img/bad.png"></a>
+          <figcaption>
+            <a href="https://badnname-wdi.herokuapp.com/" target="_blank">Visit Badnname</a>
+          </figcaption>
+        </figure>
+        <p>Paired Programming, General Assembly (2016)</p>
         <p>Great idea for a band name? Badnname.com allows you to check if your awesome band name is already in use or not. While you're at it, create a list of your favorites.</p>
-        <p><a href="https://badnname-wdi.herokuapp.com/" target="_blank">Visit Badnname</a></p>
         <p>Built with:<br />Node.js, Express.js, Handlebars.js, Mongoose, MongoDB, Bandcamp Scraper, Discogs API, Javascript, JQuery, CSS, HTML.</p>
       </div>
     </div>
@@ -122,13 +145,11 @@
   
 
 <!-- ABOUT SECTION -->
+  
+
   <div class="about-section">
-    <div class="row">
-      <div class="col s12 m12 l12">
-        <a id="about"></a>
-      </div>
-      <div class="jump2"></div>
-    </div>
+    <a id="about"></a>
+  <div class="jump1"></div>
     <div class="row">
       <div class="col s12 m12 l12">
         <h5>About</h5>
@@ -142,9 +163,7 @@
     <div class="row">
       <div class="col s12 m12 l12 center">
         <p>I'm a Chicago-based Web Developer with a passion for creating and connecting. A graduate of General Assembly's Web Development Immersive program, I have a strong interest in both Front End and Back End Development. My goal is to work with other creative and technical minds to build beautiful things that enrich the lives of users.</p>
-        <br>
         <p>My skills include HTML, CSS, CSS Frameworks / Responsive Design, Javascript, JQuery, Node.js, Express.js, Handlebars.js, Bookshelf.js, Ruby, Sinatra, Active Record, Mongodb, Sqlite3, Adobe Photoshop and Audio Engineering.</p>
-        <br>
         <p>When I'm not coding, I'm creating blissed out soundscapes with my band, volunteering at my favorite local animal shelter or getting lost in nature. I'm just a hippie in a tech world.</p>
       </div>
     </div>
@@ -152,48 +171,39 @@
 
 
 <!-- CONTACT SECTION -->
+  
+
   <div class="contact-section">
-    <div class="row">
-      <div class="col s12 m12 l12">
-        <a id="contact"></a>
-      </div>
-      <div class="jump2"></div>
-    </div>
+    <a id="contact"></a>
+  <div class="jump1"></div>
     <div class="row">
       <div class="col s12 m12 l12">
         <h5>Connect</h5>
       </div>
     </div>
     <div class="row">
-      <div class="col s12 m12 l12 center">
+      <div class="col s12 m12 l12 center contact-icon">
         <a href="mailto:marieclaire.balabanian@gmail.com" taget="_top">
-          <img class="responsive-img" id="email" src="img/email.png" />
+          <img title="E-mail" class="responsive-img" id="email" src="img/email.png" />
         </a>
       </div>
-    </div>
-    <div class="row">
-      <div class="col s12 m12 l12 center">
+      <div class="col s12 m12 l12 center contact-icon">
         <a href="https://github.com/MarieClaireBalabanian">
-          <img class="responsive-img" id="github" src="img/github.png" />
+          <img title="Github" class="responsive-img" id="github" src="img/github.png" />
         </a>
       </div>
-    </div>
-    <div class="row">
-      <div class="col s12 m12 l12 center">
+      <div class="col s12 m12 l12 center contact-icon">
         <a href="https://www.linkedin.com/in/marie-claire-balabanian">
-          <img class="responsive-img" id="linkedin" src="img/linkedin.jpg" />
+          <img title="Linked In"class="responsive-img" id="linkedin" src="img/linkedin.jpg" />
         </a>
       </div>
-    </div>
-    <div class="row">
-      <div class="col s12 m12 l12 center">
+      <div class="col s12  m12 l12 center contact-icon">
         <a href="https://www.instagram.com/mcbalabanian">
-          <img class="responsive-img" id="instagram" src="img/instagram.png" />
+          <img title="Instagram" class="responsive-img" id="instagram" src="img/instagram.png" />
         </a>
       </div>
     </div>
   </div>
-
 
 </div>
 <script
