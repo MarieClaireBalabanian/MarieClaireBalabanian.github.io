@@ -51,10 +51,6 @@ h4 {
   color: black;
 }
 
-h4 a:hover {
-  color: DarkCyan; 
-  font-weight: bold;
-}
 h5 {
   color: white;
   width: 100%;
