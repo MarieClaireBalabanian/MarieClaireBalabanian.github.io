@@ -2037,7 +2037,6 @@ form p:last-child {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #FFFFFD;
   color: #555560;
   margin: 0;
   padding: 0;
@@ -2162,7 +2161,7 @@ h6 {
 }
 
 .skills-section {
-  background-image: url('../img/lap.png');
+  background-image: url('../img/lap.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2413,7 +2412,13 @@ h5 {
 }
 
 @media only screen and (max-width: 600px) {
+ /* body {
+    font-weight: normal;
+  }*/
 
+  p {
+    font-size: 15px;
+  }
 
   .skills-section img {
     height: 60px;
