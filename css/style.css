@@ -2086,7 +2086,7 @@ nav ul  {
 
 nav ul li {
   display: inline;
-  margin: 0 0 0 3%;
+  margin: 0 0 0 30px;
   color: rgba(56, 56, 63, 1);
   font-size: .9em;
 
@@ -2095,6 +2095,7 @@ nav ul li {
 nav ul li:hover {
   text-decoration: underline;
 }
+
 
 #icon {
   position: absolute;
@@ -2412,6 +2413,8 @@ h5 {
 }
 
 @media only screen and (max-width: 600px) {
+
+
   .skills-section img {
     height: 60px;
   }
@@ -2421,12 +2424,22 @@ h5 {
   }
 
   .banner h1 {
-  font-size: 1.6em;
+    font-size: 1.6em;
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -ms-animation-play-state: paused;
+    -o-animation-play-state: paused;
   }
 
   h2 {
     font-size: 1.3em;
     top: 100px;
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -ms-animation-play-state: paused;
+    -o-animation-play-state: paused;
   }
 
   h3 {
@@ -2442,6 +2455,9 @@ h5 {
     margin-bottom: 20px;
   }
 
+  nav ul li {
+    margin: 0 0 0 20px;
+  }
 }
 
 
