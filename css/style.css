@@ -2033,7 +2033,10 @@ form p:last-child {
 
 /*----------Custom Styles------------*/
 
-
+html {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -2147,7 +2150,9 @@ h5 {
 h6 {
   margin: 0;
 }
-
+.home-section {
+  position:relative;
+}
 .banner {
   background-image: url('../img/goran2op.jpg');
   background-size: cover;
@@ -2430,21 +2435,21 @@ h5 {
 
   .banner h1 {
     font-size: 1.6em;
-    animation-play-state: paused;
+ /*   animation-play-state: paused;
     -webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
     -ms-animation-play-state: paused;
-    -o-animation-play-state: paused;
+    -o-animation-play-state: paused;*/
   }
 
   h2 {
     font-size: 1.3em;
     top: 100px;
-    animation-play-state: paused;
+/*    animation-play-state: paused;
     -webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
     -ms-animation-play-state: paused;
-    -o-animation-play-state: paused;
+    -o-animation-play-state: paused;*/
   }
 
   h3 {
