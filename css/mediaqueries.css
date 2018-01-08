@@ -35,8 +35,9 @@
   .text p {
     font-size: .8em;
   }
-  blockquote img {
+  .quotation {
     max-height: 13px;
+    margin: 0 10px;
   }
 
 
