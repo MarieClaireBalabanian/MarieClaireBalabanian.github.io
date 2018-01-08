@@ -4,18 +4,14 @@
   <title>Marie-Claire Balabanian</title>
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/materializeStyles.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
 </head>
 <body>
 
-
-<!-- ///////////////////////////////////////-->
-<!-- HOME SECTION -->
-<!-- ///////////////////////////////////////-->
-<div class="home-section">
-  <a id="home"></a>
-  <div class="jump1"></div>
-  <header>
+<header>
     <a id="icon" href="#home">MCB</a>
     <nav>
       <ul> 
@@ -25,111 +21,180 @@
       </ul>
     </nav>
   </header> 
+<!-- ///////////////////////////////////////-->
+<!-- HOME SECTION -->
+<!-- ///////////////////////////////////////-->
+<section class="home-section">
+  <a id="home"></a>
+  <div class="jump1"></div>
+
+  </div>
   <div class="banner responsive-img">
     <h1>Marie-Claire Balabanian</h1>
     <h2>Web Developer</h2>
   </div> 
-</div>
+</section>
 
 <!-- ///////////////////////////////////////-->
 <!-- PROJECT SECTION -->
 <!-- ///////////////////////////////////////-->
 
-<div class="projects-section">
+<section class="projects-section">
   <a id="projects"></a>
   <div class="jump1"></div>
   <div class="row">
     <div class="col s12 m12 l12">
-      <h5>Projects</h5>
+      <h3>Projects</h3>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col s12 m12 l12">  
-      <div class="mySlides">
-        <div class="project-name">
-          <h6 id="soundswap">Sound*Swap</h6>
-        </div>
-        <figure>
-          <button class="button-left" onclick="plusDivs(-1)"><p>&#10094;</p></button>
-          <button class="button-right" onclick="plusDivs(+1)"><p>&#10095;</p></button>
-          <a href="https://sound-swap.herokuapp.com/" target="_blank"><img class="responsive-img" src="img/soundswap.png"></a>
-          <figcaption>
-            <a href="https://sound-swap.herokuapp.com/" target="_blank">Visit SoundSwap</a>
-          </figcaption>
-        </figure>
-        <p class="p-small">Concept / Design / Coding (2017)</p>
-        <p class="indent">Being a touring musician can get complicated. Amps break in the middle of Who-Knows-Where, Oklahoma. And can your van really fit that big old Rhodes piano? SoundSwap is where local musicians help touring musicians. Need some gear? Locate available musical equipment in any US city your tour takes you through. Borrow from local musicians. Pay it forward and share with touring musicians.</p>
-        <p>Built with: HTML, CSS, MaterializeCSS, JavaScript, JQuery, Node.js, Express.js, Handlebars.js, Bookshelf.js, Knex, SQLite3.</p>
-      </div>
-  
-      <div class="mySlides">
-        <div class="project-name">
-          <h6 id="tim">TIM ISELER</h6>
-        </div>
-        <figure>
-          <button class="button-left" onclick="plusDivs(-1)"><p>&#10094;</p></button>
-          <button class="button-right" onclick="plusDivs(+1)"><p>&#10095;</p></button>
-          <a href="http://www.tim-iseler.com/" target="_blank"><img class="responsive-img" src="img/tim.png"></a>
-          <figcaption>
-            <a href="http://www.tim-iseler.com/" target="_blank">Visit Tim Iseler</a>
-          </figcaption>
-        </figure>
-        <p class="p-small">Design /Coding (2017)</p>
-        <p class="indent">The personal site of distinguised Audio Engineer Tim Iseler. This static version is a temporary placeholder. The dynamic version (coming soon), allows Tim to modify all content, without a lick of code, via forms, text editors, and CRUD.</p>
-        <p>Built with: HTML, CSS, MaterializeCSS, JacaScript, JQuery, Node.js, Express.js, Handlebars.js, Mongoose, MongoDB, CKEditor.</p>
-      </div>
-  
-      <div class="mySlides">
-        <div class="project-name">
-          <h6 id="wuvr">WuvR</h6>
-        </div>
-          <figure>
-            <button class="button-left" onclick="plusDivs(-1)"><p>&#10094;</p></button>
-            <button class="button-right" onclick="plusDivs(+1)"><p>&#10095;</p></button>
-            <a href="https://wuvrapp.herokuapp.com/" target="_blank"><img class="responsive-img" src="img/wuvr.png"></a>
-            <figcaption>
-              <a href="https://wuvrapp.herokuapp.com/" target="_blank">Visit WuvR</a>
-            </figcaption>
-          </figure>
-          <p class="p-small">Paired Programming, General Assembly (2016)<p>
-          <p class="indent">Looking for a new furry member of your family? Locate adoptable animals in any zip code and save a list of the sweet faces that catch your eye. Find a new love...or two.</p>
-          <p>Built with: HTML, CSS, JavaScript, JQuery, Ruby, Sinatra, Active Record, SQLite3, Petfinder API.</p>
-      </div>
+<div class="project-panels">
+<div class="row hide-mobile">
+  <div class="col s12 m6 l6">
 
-      <div class="mySlides">
-        <div class="project-name">
-          <h6 id="badnname">badnname</h6>
-        </div>
-        <figure>
-          <button class="button-left" onclick="plusDivs(-1)"><p>&#10094;</p></button>
-          <button class="button-right" onclick="plusDivs(+1)"><p>&#10095;</p></button>
-          <a href="https://badnname-wdi.herokuapp.com/" target="_blank"><img class="responsive-img" src="img/badnname.png"></a>
-          <figcaption>
-            <a href="https://badnname-wdi.herokuapp.com/" target="_blank">Visit Badnname</a>
-          </figcaption>
-        </figure>
-        <p class="p-small">Paired Programming, General Assembly (2016)</p>
-        <p class="indent">Great idea for a band name? Badnname.com allows you to check if your awesome band name is already in use or not. While you're at it, create a list of your favorites.</p>
-        <p>Built with: HTML, CSS, JavaScript, JQuery, Node.js, Express.js, Handlebars.js, Mongoose, MongoDB, Bandcamp Scraper, Discogs API.</p>
+  <div class="cards">
+    <img class="responsive-img image" src="img/soundswap.png">
+    <div class="overlay">
+      <div class="text">
+        <h5>SoundSwap</h5>
+          <p class="p-small">Concept / Design / Coding (2017)</p>
+        <button class="button-learn-more" id="soundswap-btn">Learn More</button>
       </div>
     </div>
-  </div> 
-  <div class="jump1"></div>
+  </div>
+  </div>
+    <div class="col s12 m6 l6">
+
+  <div class="cards">
+    <img class="responsive-img image" src="img/tim.png">
+    <div class="overlay">
+      <div class="text">
+        <h5>Tim Iseler</h5>
+         <p class="p-small">Design / Coding (2017)</p>
+        <button class="button-learn-more notransition" id="timiseler-btn">Learn More</button>
+      </div>
+    </div>
+  </div>
+  </div>
 </div>
+<div class="row hide-mobile">
+   <div class="col s12 m6 l6">
+
+  <div class="cards">
+    <img class="responsive-img image" src="img/wuvr.png">
+    <div class="overlay">
+      <div class="text">
+        <h5>WuvR</h5>
+         <p class="p-small">Paired Programming, General Assembly (2016)</p>
+        <button class="button-learn-more" id="wuvr-btn">Learn More</button>
+      </div>
+    </div>
+  </div>
+  </div>
+   <div class="col s12 m6 l6">
+
+  <div class="cards">
+    <img class="responsive-img image" src="img/badnname.png">
+    <div class="overlay">
+      <div class="text">
+        <h5>Badnname</h5>
+        <p class="p-small">Paired Programming, General Assembly (2016)</p>
+        <button class="button-learn-more" id="badnname-btn">Learn More</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="wrapper">
+  <div class="panel-closeup soundswap">
+    <button class="close-panel close-soundswap">x</button>
+    <figure>
+      <h4 id="soundswap">SoundSwap</h4>
+      <a href="https://sound-swap.herokuapp.com/" target="_blank"><img class="responsive-img image" src="img/soundswap.png"></a>
+      <figcaption>
+        <a class="visit-button" href="https://sound-swap.herokuapp.com/" target="_blank">Visit SoundSwap</a>
+      </figcaption>
+    </figure>
+    <p class="p-small">Concept / Design / Coding (2017)</p>
+    <p class="indent">Being a touring musician can get complicated. Amps break in the middle of Who-Knows-Where, Oklahoma. And can your van really fit that big old Rhodes piano? SoundSwap is where local musicians help touring musicians. Need some gear? Locate available musical equipment in any US city your tour takes you through. Borrow from local musicians. Pay it forward and share with touring musicians.</p>
+    <p>Built with: HTML, CSS, MaterializeCSS, JavaScript, JQuery, Node.js, Express.js, Handlebars.js, Bookshelf.js, Knex, SQLite3.</p>
+  </div>
+</div>
+</div>
+
+<div class="row">
+  <div class="panel-closeup timiseler">
+    <button class="close-panel close-timiseler">x</button>
+    <h4 id="soundswap">Tim Iseler</h4>
+    <figure>
+      <a href="http://www.tim-iseler.com/" target="_blank"><img class="responsive-img" src="img/tim.png"></a>
+      <figcaption>
+        <a class="visit-button" href="http://www.tim-iseler.com/" target="_blank">Visit Tim Iseler</a>
+      </figcaption>
+    </figure>
+    <p class="p-small">Design / Coding (2017)</p>
+    <p class="indent">The personal site of distinguised Audio Engineer Tim Iseler. This static version is a temporary placeholder. The dynamic version (coming soon), allows Tim to modify all content, without a lick of code, via forms, text editors, and CRUD.</p>
+    <p>Built with: HTML, CSS, MaterializeCSS, JavaScript, JQuery, Node.js, Express.js, Handlebars.js, Mongoose, MongoDB, CKEditor.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="panel-closeup wuvr">
+    <button class="close-panel close-wuvr">x</button>
+    <h4 id="wuvr">Wuvr</h4>
+    <figure>
+      <a href="https://wuvrapp.herokuapp.com/" target="_blank"><img class="responsive-img" src="img/wuvr.png"></a>
+      <figcaption>
+        <a class="visit-button" href="https://wuvrapp.herokuapp.com/" target="_blank">Visit WuvR</a>
+      </figcaption>
+    </figure>
+    <p class="p-small">Paired Programming, General Assembly (2016)<p>
+    <p class="indent">Looking for a new furry member of your family? Locate adoptable animals in any zip code and save a list of the sweet faces that catch your eye. Find a new love...or two.</p>
+    <p>Built with: HTML, CSS, JavaScript, JQuery, Ruby, Sinatra, Active Record, SQLite3, Petfinder API.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="row panel-closeup badnname">
+    <button class="close-panel close-badnname">x</button>
+    <h4 id="badnname">badnname</h4>
+    <figure>
+      <a href="https://badnname-wdi.herokuapp.com/" target="_blank"><img class="responsive-img" src="img/badnname.png"></a>
+      <figcaption>
+        <a class="visit-button" href="https://badnname-wdi.herokuapp.com/" target="_blank">Visit Badnname</a>
+      </figcaption>
+    </figure>
+    <p class="p-small">Paired Programming, General Assembly (2016)</p>
+    <p class="indent">Great idea for a band name? Badnname.com allows you to check if your awesome band name is already in use or not. While you're at it, create a list of your favorites.</p>
+    <p>Built with: HTML, CSS, JavaScript, JQuery, Node.js, Express.js, Handlebars.js, Mongoose, MongoDB, Bandcamp Scraper, Discogs API.</p>
+  </div>
+</div>
+
+</section>
+
+ 
+      
   
+     
+  
+
+
 
 
   <!-- ///////////////////////////////////////-->
 <!-- SKILLS SECTION -->
 <!-- ///////////////////////////////////////-->
 
-<div class="skills-section">
+<section class="skills-section">
   <a id="skills"></a>
   <div class="jump1"></div>
   <div class="row">
     <div class="col s12 m12 l12">
-      <h5>Skills</h5>
+      <h3>Skills</h3>
     </div>
   </div>
   <div class="row">
@@ -171,7 +236,7 @@
     </div>
   </div>
   <div class="jump1"></div>
-</div>
+</section>
 
 
 
@@ -179,26 +244,24 @@
 <!-- ///////////////////////////////////////-->
 <!-- ABOUT SECTION -->
 <!-- ///////////////////////////////////////-->
-<div class="about-section">
+<section class="about-section">
   <a id="about"></a>
   <div class="jump1"></div>
   <div class="row">
-    <div class="col s12 m12 l12">
-      <h5>About</h5>
-    </div>
+      <h3>About</h3>
   </div>
    <div class="row">
-    <div class="col s12 m3 l3 center">
-      <img class="responsive-img" src="img/smile.jpg" />
+    <div class="col1of2">
+      <img class="responsive-img profile-photo" src="img/hat.jpg" />
     </div>
  
-    <div class="col s12 m9 l9">
-      <h6 class="margin-auto">Web Developer</h6>
-      <p class="indent margin-auto">I'm a Chicago-based Web Developer with a passion for creating and connecting. A graduate of General Assembly's Web Development Immersive program, I have a deep interest in both Front End and Back End Development. I love collaborating with other creative and technical minds and building beautiful things that enrich the lives of users.</p>
+    <div class="col1of2">
+      
+      <blockquote><img class="quotation" src="img/quotesleft.png">Chicago-based Web Developer, vibey musician, animal welfare enthusiast. A graduate of General Assembly's Web Development Immersive program, I love collaborating with other creative and technical mind to enrich the lives of users through responsive sites and applications. Let's connect and make something beautiful!<img class="quotation" src="img/quotesright.png"><h6>Marie-Claire Balabanian</h6></blockquote>
     </div> 
   </div>
 
-  <div class="row">
+  <!-- <div class="row">
     <div class="col s12 m12 l12">
       <h6>Musician / Audio Geek</h6>
       <p class="indent">I've been writing and playing music since 2006. As a co-writer, vocalist, and multi-instrumentalist for space-rock outfit Speck Mountain, I was fortunate to be able to record three full-length albums and tour, both domestically and abroad. As a freelance audio engineer / composer, I have recorded, edited and composed for various projects, including short videos for companies such as Free People and Wilder Magazine. </p>
@@ -210,9 +273,8 @@
       <h6>Animal Welfare Enthusiast</h6>
       <p class="indent">Much of the past seven years of my life has been devoted to animal welfare. Working in rescue was both incredibly challenging and incredibly rewarding. Today, I stay involved by volunteering at my favorite local animal shelter, <a href="http://www.felinescanines.org/" targe="_blank">Felines &amp; Canines.</a></p>
     </div> 
-  </div>
- <div class="jump1"></div>
-</div>
+  </div> -->
+</section>
 
 
 
@@ -223,19 +285,18 @@
 <!-- ///////////////////////////////////////-->
 
 <footer class="contact-section">
-  <div class="row">
-    <div class="col s10 offset-s1 m6 offset-m3 l6 offset-l3 center">
+
+    <div class="contact-icons clearfix">
       <a href="https://github.com/MarieClaireBalabanian">
         <img class="responsive-img" id="github" alt="Github icon" title="Visit My Github"src="img/github.png" />
       </a>
-      <a href="mailto:marieclaire.balabanian@gmail.com" taget="_top">
-        <img class="responsive-img" id="email" alt="E-mail icon" title="E-mail Me" target="_top" src="img/email2 copy.png" />
+      <a id="email" href="mailto:marieclaire.balabanian@gmail.com" taget="_top">
+        <img class="responsive-img"  alt="E-mail icon" title="E-mail Me" target="_top" src="img/email2 copy.png" />
       </a>
       <a href="https://www.linkedin.com/in/marie-claire-balabanian">
         <img class="responsive-img" id="linkedin" alt="LinkedIn icon" title="Visit My LinkedIn" src="img/linkedin2.png" />
       </a>
     </div>
-  </div>
 </footer>
 
 <script
