@@ -81,7 +81,6 @@ nav {
   position: absolute;
   top: 8px;
   right: 4%;
-
   text-align: right;
 }
 
@@ -127,7 +126,7 @@ nav ul li:hover {
   top: 55px;
   right: 4%;
   font-weight: lighter;
-/*  animation: slideName 3s;
+  /*  animation: slideName 3s;
   -webkit-animation: slideName 3s;
   -moz-animation: slideName 3s;
   -ms-animation: slideName 3s;
@@ -178,7 +177,6 @@ h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
   left: 0;
   top: 0;
   height: 100%;
@@ -302,6 +300,7 @@ figcaption  {
 
 .projects-section {
   min-height: 100vh;
+  overflow: auto;
   width: 100%;
 /*  background-image: url('../img/paintbrushes.jpg');*/
   background-size: cover;
@@ -435,9 +434,15 @@ button  {
   color: black;
   /*font-weight: bold;*/
   padding: 20px;
+
 /*  border-left: 5px solid black;
   border-right: 5px solid black;
   border-bottom: 1px solid black;*/
+}
+
+.soundswap {
+  border: 1px solid blue;
+    height: auto;
 }
 
 

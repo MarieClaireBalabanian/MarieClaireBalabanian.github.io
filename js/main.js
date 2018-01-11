@@ -30,14 +30,28 @@
 //         // var top = top + 100;
 //     x[i].style.animation = "slideName " + "infinite " + (3 *([i]+1)) + "s";
 // }
+// var biggestHeight = 0;
+// // Loop through elements children to find & set the biggest height
+// $(".container *").each(function(){
+//  // If this elements height is bigger than the biggestHeight
+//  if ($(this).height() > biggestHeight ) {
+//    // Set the biggestHeight to this Height
+//    biggestHeight = $(this).height();
+//  }
+// });
 
-
+// // Set the container height
+// $(".project-panels").height(biggestHeight);
+$('#speck-btn').click(function() {
+    $('.speck').css({
+        'display': 'block'
+    });    
+});
 
 $('#soundswap-btn').click(function() {
     $('.soundswap').css({
         'display': 'block'
-    });
-    
+    });    
 });
 
 
@@ -84,6 +98,12 @@ $('.close-wuvr').click(function() {
 
 $('.close-badnname').click(function() {
     $('.badnname').css({
+        'display': 'none'
+    });
+});
+
+$('.close-speck').click(function() {
+    $('.speck').css({
         'display': 'none'
     });
 });

@@ -5,10 +5,15 @@
 
 @media only screen and (max-width: 730px) {
   
-  /*h1 {
-    font-size: 2em;
-  }*/
+  nav ul li:hover {
+ text-shadow: none;
+}
 
+
+
+#icon:hover {
+  text-shadow: none;
+}
   button {
     font-size: .9em;
     padding: 2px 0;
