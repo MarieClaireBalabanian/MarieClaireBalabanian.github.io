@@ -459,7 +459,7 @@ button  {
   margin-right: auto;
 }
 
-.soundswap, .timiseler, .wuvr, .badnname {
+.soundswap, .timiseler, .wuvr, .badnname, .speck {
   display: none;
   -webkit-animation: fade .5s;
   -moz-animation: fade .5s ;
