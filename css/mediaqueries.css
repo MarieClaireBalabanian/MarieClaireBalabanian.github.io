@@ -95,8 +95,8 @@
 .panel-closeup p {
   width: 90%;
 }
-  .soundswap, .timiseler, .wuvr, .badnname {
-  display: block;
+  .soundswap, .timiseler, .wuvr, .badnname, .speck {
+  display: block !important;
   -webkit-animation: fade .5s;
   -moz-animation: fade .5s ;
   -o-animation: fade .5s ;
