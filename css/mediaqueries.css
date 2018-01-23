@@ -6,14 +6,11 @@
 @media only screen and (max-width: 730px) {
   
   nav ul li:hover {
- text-shadow: none;
-}
-
-
-
-#icon:hover {
-  text-shadow: none;
-}
+   text-shadow: none;
+  }
+  #icon:hover {
+    text-shadow: none;
+  }
   button {
     font-size: .9em;
     padding: 2px 0;
@@ -34,9 +31,7 @@
     border: none;
     text-align: left;
     font-size: 1em;
-
   }
- 
   .text p {
     font-size: .8em;
   }
@@ -44,103 +39,72 @@
     max-height: 13px;
     margin: 0 10px;
   }
-
-
   h1 {
     font-size: 1.8em;
   }
-
   h5 {
     font-size: 1.2em;
   }
 }
 
 @media only screen and (max-width: 600px) {
- /* body {
-    font-weight: normal;
-  }*/
-
   .profile-photo {
     width: 80%;
   }
-
   .skills-section img {
     height: 60px;
   }
-
-
-
-
-/*  .overlay, .text {
-    display: none;
-  }
-
-  .cards {
-    display: none;
-
-  }*/
-
   .panel-closeup {
     position: static;
     width: 100%;
     margin-bottom: 30px;
     padding: 0;
   }
-
-.panel-closeup img {
-  max-width: 90%;
-  height: auto;
-}
-
-.panel-closeup p {
-  width: 90%;
-}
+  .panel-closeup img {
+    max-width: 90%;
+    height: auto;
+  }
+  .panel-closeup p {
+    width: 90%;
+  }
   .soundswap, .timiseler, .wuvr, .badnname, .speck {
-  display: block !important;
-  -webkit-animation: fade .5s;
-  -moz-animation: fade .5s ;
-  -o-animation: fade .5s ;
-  animation: fade .5s ;
-}
-
-.hide-mobile {
-  display: none;
-}
-
-.close-panel {
-  display: none;
-}
-
-
+    display: block !important;
+    -webkit-animation: fade .5s;
+    -moz-animation: fade .5s ;
+    -o-animation: fade .5s ;
+    animation: fade .5s ;
+  }
+  .hide-mobile {
+    display: none;
+  }
+  .close-panel {
+    display: none;
+  }
   .margin-auto {
     width: 100%;
   }
-
   nav ul li {
     margin: 0 0 0 20px;
   }
-
-h4 {
-  font-size: 1.4em;
-}
-.notransition {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -o-transition: none !important;
-  transition: none !important;
-}
-.button-learn-more:hover {
-  transition:none !important;
-   -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -o-transition: none !important;
-}
-
-blockquote h6 {
-  font-size: 1.1em;
-}
-
- h1 {
+  h4 {
+    font-size: 1.4em;
+  }
+  .notransition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+  }
+  .button-learn-more:hover {
+    transition:none !important;
+     -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+  }
+  blockquote h6 {
+    font-size: 1.1em;
+  }
+  h1 {
     font-size: 1.6em;
   }
   h2 {
@@ -150,7 +114,7 @@ blockquote h6 {
 
 
 @media only screen and (max-width: 357px) {
-   h1 {
+  h1 {
     font-size: 1.2em;
   }
   h2 {
@@ -159,13 +123,6 @@ blockquote h6 {
 }
 
 @media only screen and (max-width: 270px) {
-  /*h1 {
-    font-size: 1.3em;
-  }
-
-  h2 {
-    font-size: 1.1em;
-  }*/
   nav ul li {
     margin: 0 0 0 10px;
   }
