@@ -1,47 +1,21 @@
-// var slideIndex = 1;
-// showDivs(slideIndex);
 
-// function plusDivs(n) {
-//     showDivs(slideIndex += n);
+console.log(document.lastModified);
+
+
+// var homePage = document.getElementsByClassName('home-section'[0]);
+// var header = document.getElementsByTagName('header')[0];
+// function showHeader() {
+//   header.style.display = "block";
 // }
-
-// function showDivs(n) {
-//     var i;
-//     var x = document.getElementsByClassName("mySlides");
-//     if (n > x.length) {slideIndex = 1} 
-//     if (n < 1) {slideIndex = x.length} ;
-//     for (i = 0; i < x.length; i++) {
-//         x[i].style.display = "none"; 
-//     }
-//     x[slideIndex-1].style.display = "block"; 
+// function hideHeader() {
+//   header.style.display = "none";
 // }
 
 
 
-// var x = document.getElementsByClassName("float-left");
 
-// for ( var i = 0; i < x.length; i++) {
-//         x[i].style.color = "white";
 
-//       x[i].style.position = "absolute";
-//     x[i].style.right = "150%";
-//         x[i].style.top = (100 * ([i]+1)) + "px";
 
-//         // var top = top + 100;
-//     x[i].style.animation = "slideName " + "infinite " + (3 *([i]+1)) + "s";
-// }
-// var biggestHeight = 0;
-// // Loop through elements children to find & set the biggest height
-// $(".container *").each(function(){
-//  // If this elements height is bigger than the biggestHeight
-//  if ($(this).height() > biggestHeight ) {
-//    // Set the biggestHeight to this Height
-//    biggestHeight = $(this).height();
-//  }
-// });
-var body = document.body
-// // Set the container height
-// $(".project-panels").height(biggestHeight);
 $('#speck-btn').click(function() {
     $('.speck').css({
         'display': 'block'
