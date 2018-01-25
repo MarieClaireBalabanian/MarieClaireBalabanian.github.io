@@ -295,7 +295,7 @@ figure {
   width: 100%;
   margin: 0 auto;
   height: 0;
-  transition: .6s ease;
+  transition: .3s all ease;
 }
 
 .cards:hover .overlay {
@@ -341,11 +341,10 @@ button  {
   left: 0;
   right: 0;
   top: 40px;
-  overflow-y:scroll;
+  overflow-y: scroll;
   bottom: 40px;
-  background-color: rgba(255,255,255,.98);
+  background-color: rgba(255, 255, 255, .98);
   color: black;
-  /*font-weight: bold;*/
   padding: 20px;
 }
 
@@ -364,10 +363,10 @@ button  {
 
 .soundswap, .timiseler, .wuvr, .badnname, .speck {
   display: none;
-  -webkit-animation: fade .5s;
-  -moz-animation: fade .5s ;
-  -o-animation: fade .5s ;
-  animation: fade .5s ;
+  -webkit-animation: fade .4s;
+  -moz-animation: fade .4s ;
+  -o-animation: fade .4s ;
+  animation: fade .4s ;
 }
 
 .close-panel {
@@ -404,10 +403,10 @@ button  {
 .visit-button:hover {
   background-color: #00a7b5;
   color: white; 
-box-shadow: inset 0px 0px 0px 1px white;
--webkit-box-shadow: inset 0px 0px 0px 1px white;
--moz-box-shadow: inset 0px 0px 0px 1px white;
--o-box-shadow: inset 0px 0px 0px 1px white;
+  box-shadow: inset 0px 0px 0px 1px white;
+  -webkit-box-shadow: inset 0px 0px 0px 1px white;
+  -moz-box-shadow: inset 0px 0px 0px 1px white;
+  -o-box-shadow: inset 0px 0px 0px 1px white;
 }
 
 blockquote {
@@ -417,13 +416,13 @@ blockquote {
   width: 80%;
   border-left: 5px solid #FB624B;
   padding-left: 20px;
-
 }
 
 blockquote h6 {
   margin-top: 40px;
   font-size: 1.5em;
 }
+
 .quotation {
   font-family: Georgia, serif;
   margin: 0 20px;
