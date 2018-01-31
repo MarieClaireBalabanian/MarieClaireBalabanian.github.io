@@ -1455,7 +1455,7 @@ section {
 @media only screen and (max-width: 730px) {
   
   nav ul li a:hover {
-   text-shadow: none;
+    text-shadow: none;
   }
   #icon:hover {
     text-shadow: none;
