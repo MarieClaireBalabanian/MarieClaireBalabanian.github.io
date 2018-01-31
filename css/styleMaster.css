@@ -953,8 +953,7 @@ header {
   right: 0;
   height: 40px;
   background-color: white;
-  box-shadow: 0px 1px 1px #D3D3D3;
-   box-shadow: 0px 0px 1px rgb(100,100,100);
+  box-shadow: 0px 0px 1px rgb(100,100,100);
 }
 
 nav {
@@ -978,12 +977,19 @@ nav li {
   margin: 0 0 0 30px;
   color: rgba(56, 56, 63, 1);
   font-size: .9em;
+  -webkit-transition: .25s all ease;
+  -moz-transition: .25s all ease;
+  -o-transition: .25s all ease;
   transition: .25s all ease;
+
 }
 
 nav li > a {
   color: rgba(56, 56, 63, 1);
   font-size: .9em;
+  -webkit-transition: .25s all ease;
+  -moz-transition: .25s all ease;
+  -o-transition: .25s all ease;
   transition: .25s all ease;
 }
 
@@ -996,6 +1002,9 @@ nav ul li a:hover {
   left: 4%;
   top: 8px;
   color: #555560;
+  -webkit-transition: .25s all ease;
+  -moz-transition: .25s all ease;
+  -o-transition: .25s all ease;
   transition: .25s all ease;
 }
 
@@ -1183,6 +1192,9 @@ figure {
   width: 100%;
   margin: 0 auto;
   height: 0;
+  -webkit-transition: .3s all ease;
+  -moz-transition: .3s all ease;
+  -o-transition: .3s all ease;
   transition: .3s all ease;
 }
 
@@ -1199,8 +1211,13 @@ figure {
   overflow-wrap: break-word;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
 }
 
 button  {
@@ -1217,7 +1234,11 @@ button  {
   border: 3px double white;
   width: 200px;
   filter:drop-shadow(2px 2px 2px gray);
+  -webkit-transition: .2s all ease;
+  -moz-transition: .2s all ease;
+  -o-transition: .2s all ease;
   transition: .2s all ease;
+
 }
 
 .button-learn-more:hover, .button-learn-more:focus {
@@ -1265,14 +1286,22 @@ button  {
   color: black;
   border: none;
   font-size: 1.5em;
-  transition: .2s all linear;
   background-color: transparent;
+  -webkit-transition: .2s all ease;
+  -moz-transition: .2s all ease;
+  -o-transition: .2s all ease;
+  transition: .2s all ease;
 }
 
 .close-panel:hover {
   background-color: transparent;
   font-size: 2em;
   color: red;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
@@ -1285,6 +1314,10 @@ button  {
   color: #00a7b5;
   text-align: center;
   border: 3px double #00a7b5;
+  transition: .3s all ease;
+  -webkit-transition: .3s all ease;
+  -moz-transition: .3s all ease;
+  -o-transition: .3s all ease;
   transition: .3s all ease;
 }
 
@@ -1326,6 +1359,10 @@ blockquote h6 {
   display: block;
   width: 300px;
   margin: 0 auto;
+  -webkit-border-radius: ;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
 }
 
@@ -1431,17 +1468,27 @@ section {
 }
 
 
-@-moz-keyframes fade {
-  from { -moz-opacity: 0; }
-  to { -moz-opacity: 1; }
-}
-@-webkit-keyframes fade {
-  from { -webkit-opacity: 0; }
-  to { -webkit-opacity: 1; }
-}
 @keyframes fade {
   from {opacity:0;}
   to {opacity: 1;}
+}
+@-webkit-keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@-moz-keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@-ms-keyframes "fade" {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@-o-keyframes "fade" {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 
@@ -1546,10 +1593,10 @@ section {
     transition: none !important;
   }
   .button-learn-more:hover {
-    transition:none !important;
-     -webkit-transition: none !important;
+    -webkit-transition: none !important;
     -moz-transition: none !important;
     -o-transition: none !important;
+    transition:none !important;
   }
   blockquote h6 {
     font-size: 1.1em;
