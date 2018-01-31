@@ -92,7 +92,7 @@ nav ul  {
   height: 26px;
 }
 
-nav ul li {
+nav li {
   display: inline;
   margin: 0 0 0 30px;
   color: rgba(56, 56, 63, 1);
@@ -100,7 +100,13 @@ nav ul li {
   transition: .25s all ease;
 }
 
-nav ul li:hover {
+nav li > a {
+  color: rgba(56, 56, 63, 1);
+  font-size: .9em;
+  transition: .25s all ease;
+}
+
+nav ul li a:hover {
   text-shadow: .5px .5px #555560, 1px 1px #555560;
 }
 
@@ -346,6 +352,7 @@ button  {
   background-color: rgba(255, 255, 255, .98);
   color: black;
   padding: 20px;
+  z-index: 8;
 }
 
 .panel-closeup  img {
@@ -454,9 +461,9 @@ footer {
   box-sizing: border-box;
 }
 
-#email {
+/*#email {
   margin: 0 30px;
-}
+}*/
 
 footer a {
   float: left;
@@ -464,6 +471,9 @@ footer a {
   width: 25px;
 }
 
+footer a:nth-child(2) {
+  margin: 0 30px;
+}
 footer a img {
   height: 25px;
   width: 25px;
