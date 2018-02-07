@@ -1236,6 +1236,9 @@ button  {
   color: white;
   border: 3px double white;
   width: 200px;
+  -webkit-filter:drop-shadow(2px 2px 2px gray);
+  -moz-filter:drop-shadow(2px 2px 2px gray);
+  -o-filter:drop-shadow(2px 2px 2px gray);
   filter:drop-shadow(2px 2px 2px gray);
   -webkit-transition: .2s all ease;
   -moz-transition: .2s all ease;
@@ -1404,17 +1407,22 @@ footer a img {
   margin: 0 auto;
 }
 
-.clearfix::after {
+
+.clearfix:before,
+.clearfix:after {
   content: "";
-  clear: both;
   display: table;
+} 
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
 section {
   margin-bottom: 100px;
 }
-
-
 
 
 /* Animations */

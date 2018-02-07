@@ -37,11 +37,7 @@ ol, ul {
 blockquote, q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -445,6 +441,10 @@ blockquote h6 {
   display: block;
   width: 300px;
   margin: 0 auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
   border-radius: 50%;
 }
 
